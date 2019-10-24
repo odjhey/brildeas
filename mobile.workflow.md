@@ -1,3 +1,10 @@
+# A highly opinionated guideline of writing mobile apps (RN/MST/GQL)
+
+# Cycle
+1. Pitch
+1. Shape
+1. Bet
+1. Build
 
 # MVP
 Always start with an MVP = 1-4 User stories
@@ -88,3 +95,30 @@ Always start with an MVP = 1-4 User stories
 ## Git Structure
 ## Branches
 
+#TODOs
+1. add naming conventions
+    1. file naming
+        1. storybook
+        1. components
+        1. tests
+    1. variable/props/interfaces etc naming
+    1. git
+        1. commits
+        1. prs
+        1. issues
+        1. branch
+1. add eslint and prettier setup
+1. add babel and tsc setup
+1. add circle ci config
+1. containerize
+1. update gitignores
+1. maintain boilerplates
+1. props/types/schema required or not
+1. please use component composing, for observers, so we can observerized all components haha
+    1. by eg. using props.children in all composite components
+1. create a whole section about testing
+
+
+1. how to modularize business logic (https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+1. break into apis/nodemodules
+1. business logic should not be DB dependent
